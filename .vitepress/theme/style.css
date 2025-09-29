@@ -1,0 +1,79 @@
+:root {
+  --vp-c-brand-1: #646cff;
+  --vp-c-brand-2: #747bff;
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #bd34fe 30%,
+    #41d1ff
+  );
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #bd34fe 50%,
+    #47caff 50%
+  );
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+.main {
+  min-height: 260px;
+}
+.image-container {
+  position: relative;
+  margin: 0 auto;
+  width: 320px;
+  height: 320px;
+}
+
+.image-bg {
+  position: absolute;
+  top: 50%;
+  /*rtl:ignore*/
+  left: 50%;
+  border-radius: 50%;
+  width: 192px;
+  height: 192px;
+  background-image: var(--vp-home-hero-image-background-image);
+  filter: var(--vp-home-hero-image-filter);
+  /*rtl:ignore*/
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 640px) {
+  .image-bg {
+    width: 256px;
+    height: 256px;
+  }
+}
+
+@media (min-width: 960px) {
+  .image-bg {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+/* 增大 hero 区域的图片大小 */
+.VPHero .image img {
+  width: 400px !important;
+  height: 400px !important;
+  max-width: none !important;
+}
+
+@media (min-width: 768px) {
+  .VPHero .image img {
+    width: 500px !important;
+    height: 500px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .VPHero .image img {
+    width: 600px !important;
+    height: 600px !important;
+  }
+}
+
+.VPFooter[data-v-5bdef7ba] a {
+    text-decoration-line: none !important;
+}
