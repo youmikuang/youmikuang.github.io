@@ -1,4 +1,6 @@
 export default {
+  title: '个人主页',
+  description: '用 Markdown 写文档，只需几分钟',
   themeConfig: {
     siteTitle: 'Homepage',
     nav: [
@@ -15,7 +17,8 @@ export default {
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2025-present GAOHENG | <a href=\"https://beian.miit.gov.cn/\" target=\"_blank\">京ICP备16016944号-3</a>'
+      // copyright: 'Copyright © 2025-present GAOHENG | <a href=\"https://beian.miit.gov.cn/\" target=\"_blank\">京ICP备16016944号-3</a>',
+      copyright: 'Copyright © 2025-present GAOHENG'
     }
   }
 }
