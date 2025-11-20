@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: 快速开始 →
-      link: /zh/guide/what-is-vitepress
+      link: /zh/guide/
     - theme: alt
       text: GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/youmikuang/youmikuang.github.io
   image:
       src: /golang.svg
       alt: Homepage
