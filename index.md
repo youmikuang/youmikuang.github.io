@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: 个人主页
+  name: 个人 Blog
   text: 
   tagline: 用 Markdown 写文档，只需几分钟。
   actions:
